@@ -48,7 +48,7 @@ export default class App extends React.Component {
   render() {
     return(
         <div>
-          <h1>React Todos List App</h1>
+          <h1>React Todos List App Version 1 (with only react and webpack)</h1>
         <NewItem createTask = {this.createTask.bind(this)} todos = {this.state.todos}/>
           <List todos= {this.state.todos}
             toggleTask= {this.toggleTask.bind(this)}
